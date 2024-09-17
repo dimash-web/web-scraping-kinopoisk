@@ -15,9 +15,8 @@ This project is a web scraper that collects a list of the top 250 movies from **
 
 The data uncovered by the scraper includes:
 - Movie title
-- Rating
+- Link to the movie description
 - Genre
-- Additional data such as the year of release (if available)
 
 The purpose of collecting this data is to provide users with a list of highly rated movies from Kinopoisk and allow them to receive a random movie suggestion from the list. This project serves as an educational tool for demonstrating web scraping and data manipulation techniques.
 
@@ -33,5 +32,5 @@ To run this project on your local machine, follow these steps:
 2. Navigate to the project directory (cd movie-scraper-randomizer)
 3. Setting up a virtual environment is **NOT** required to run this project
 4. Install the required dependencies from requirements.txt
-5. Install a Selenium WebDriver
+5. Install a ChromeDriver and pass the address (path) of chromedriver on your PC in lines 13, 65
 6. Run it!
